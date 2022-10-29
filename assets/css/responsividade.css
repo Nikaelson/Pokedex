@@ -1,0 +1,103 @@
+@media screen and (min-width: 0px) {
+  .pokemons {
+    grid-template-columns: calc(100% - 4px);
+  }
+
+  .number {
+    font-size: 0.7rem;
+  }
+
+  .name {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+  .type {
+    font-size: 1rem;
+  }
+
+  dialog {
+    height: 100vh;
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 250px) {
+
+  .number {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 2.4rem;
+  }
+
+  .type {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .pokemons {
+    grid-template-columns: calc(50% - 2px) calc(50% - 2px);
+  }
+
+  .number {
+    font-size: 0.7rem;
+  }
+
+  .apresentation>.name {
+    font-size: 2.4rem;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .type {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .pokemons {
+    grid-template-columns: calc(33.33% - 2px) calc(33.33% - 2px) calc(33.33%);
+  }
+
+  .table {
+    flex-direction: row;
+  }
+
+  .table-1,
+  .table-2 {
+    display: block;
+    flex-basis: 50%;
+  }
+
+  dialog {
+    height: 725px;
+    width: 510px;
+  }
+
+  .dialog {
+    width: 510px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .pokemons {
+    grid-template-columns: calc(25% - 2px) calc(25% - 2px) calc(25% - 2px) calc(25%);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .pokemons {
+    grid-template-columns: calc(20% - 2px) calc(20% - 2px) calc(20% - 2px) calc(20% - 2px) calc(20%);
+  }
+}
